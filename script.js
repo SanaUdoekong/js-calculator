@@ -1,3 +1,4 @@
+
 let num1 = Number(prompt("Enter the first number: "));
 let num2 = Number(prompt("Enter the second number: "));
 let op = prompt("Choose an operation[+, -, *, /]:");
@@ -36,7 +37,6 @@ function getAnswer(num1, num2, op) {
     } else {
         alert("Syntax Error!");
     }
-
-
-    getAnswer(num1, num2, op);
 }
+
+getAnswer(num1, num2, op);
